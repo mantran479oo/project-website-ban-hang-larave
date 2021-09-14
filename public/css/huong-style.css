@@ -1,0 +1,112 @@
+.fixNav{
+  width: 100%;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  z-index: 100000000;
+}
+.cart-body{
+	z-index:999;
+}
+.inner-header{
+	background-color: #ffffff
+}
+.inner-title,.beta-breadcrumb, .beta-breadcrumb a{
+	color: black
+}
+.main-menu>ul.l-inline> li> a{
+	color: #fff;
+	padding: 10px 35px
+}
+.profile{
+    margin-block-end: 200px;
+    margin-top: 24px;
+        line-height: 44px;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+
+.avt{
+	text-align: center;
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    width: 79px;
+    height: 35px;
+    margin: 11px 67px 29px;
+    padding: 5px;
+}
+label.avt:hover,label.avt:active{
+	background: #3366CC;
+}
+.orders{
+      margin-block-end: 200px;
+    margin-top: 24px;
+    margin-left: 98px;
+}
+.comments{
+  margin: 31px;
+}
+.district{
+    margin-left: 206px;
+    width: 219px;
+}
+.wards{
+  width: 199px;
+    margin-left: -69px;
+}
+.buttons_added {
+    opacity:1;
+    display:inline-block;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    white-space:nowrap;
+    vertical-align:top;
+}
+.is-form {
+    overflow:hidden;
+    position:relative;
+    background-color:#f9f9f9;
+    height:2.2rem;
+    width:1.9rem;
+    padding:0;
+    text-shadow:1px 1px 1px #fff;
+    border:1px solid #ddd;
+}
+.is-form:focus,.input-text:focus {
+    outline:none;
+}
+.is-form.minus {
+    border-radius:4px 0 0 4px;
+}
+.is-form.plus {
+    border-radius:0 4px 4px 0;
+}
+.input-qty {
+    background-color:#fff;
+    height:2.2rem;
+    text-align:center;
+    font-size:1rem;
+    display:inline-block;
+    vertical-align:top;
+    margin:0;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:0;
+    border-right:0;
+    padding:0;
+}
+.input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+    margin:0;
+}
